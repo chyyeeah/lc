@@ -25,7 +25,6 @@ const triplet_sum_close_to_target = function (arr, target_sum) {
       }
     }
   }
-
   return minSum;
 };
 
