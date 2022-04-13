@@ -33,8 +33,6 @@ solveKnapsack = function (profits, weights, capacity) {
 /**Bottom up - tabulation */
 solveKnapsack = function (profits, weights, capacity) {
   const dp = new Array(weights.length).fill(0).map(() => new Array(capacity + 1).fill(0));
-  // console.log(dp);
-
   for (let i = 0; i < weights.length; i++) {
     for (let j = 1; j < capacity + 1; j++) {
       
