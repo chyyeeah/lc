@@ -13,7 +13,6 @@ const find_letter_case_string_permutations = function (str) {
       permutations.push(perm + char);
     }
   }
-  console.table(permutations)
   return permutations;
 };
 
